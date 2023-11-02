@@ -38,16 +38,19 @@ body {
 
 .price {
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .quantity {
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
-
 button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
   border: none;
   border-radius: 50%;
   width: 30px;
@@ -57,6 +60,16 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+}
+.price-value {
+  color: var(--tg-theme-button-text-color);
+  background-color: var(--tg-theme-button-color);
+  border: 1px solid var(--tg-theme-button-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin: 0 auto;
 }
 /* Добавьте класс .hidden для скрытия элемента */
 .hidden {
